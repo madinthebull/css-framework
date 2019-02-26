@@ -1,3 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-offset {
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    float: left;
+    background-color: red;
+    position: fixed;
+}
+
+.navbar-left {
+    float: left;
+    width: 75%;
+    
+}
+.navbar-right {
+    float: left;
+    width: 25%;
+}
+
+h1 {
+    color: white;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: pink;
+}
+.dropbtn {
+    background-color: red;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    display: block;
+    padding: 12px, 16px;
+}
+
+li a:hover {
+    background-color: pink;
+    color: black;
+} 
+.dropdown:hover .dropdown-content, a:hover {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: pink;
+}
+
+.dropdown:hover .dropbtn {
+    display: block;
+    color: black;
+}
+.dropbtn:hover {
+    background-color: pink;
+}
 .col-1 {
     float: left;
     width: 8.33333333%;
